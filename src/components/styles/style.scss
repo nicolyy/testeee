@@ -472,6 +472,28 @@ border:  solid 1px #D0014C;
     text-align: center;
 }
 
+
+/*Sobre Mim*/
+
+.titulo-sobremim{
+    color: #D0014C ;
+    font-size: 30px;
+    font-family: 'spline sans mono';
+}
+
+.container-sobremim{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin: 10% 10% 10% 10%;
+}
+
+
+
+
+
+
 /* Media Querie -------------------------------------------------------------------*/
 @media only screen and (max-width: 1024px) {
 
