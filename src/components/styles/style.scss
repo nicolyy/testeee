@@ -170,6 +170,19 @@ h2{
     line-height: 1.2;
 }
 
+
+.saiba-mais-link{
+    text-decoration: none;
+    color: #B40041;
+
+}
+
+.saiba-mais-link:hover{
+    text-decoration: none;
+    color: #B40041;
+    font-weight: bold;
+}
+
 .texto-curriculo{
     background-color: transparent;
     border: none;
@@ -477,8 +490,9 @@ border:  solid 1px #D0014C;
 
 .titulo-sobremim{
     color: #D0014C ;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'spline sans mono';
+    padding: 5% 0 5% 0;
 }
 
 .container-sobremim{
@@ -489,7 +503,17 @@ border:  solid 1px #D0014C;
     margin: 10% 10% 10% 10%;
 }
 
+.box-sobre-mim{
+    width: 100%;
+    font-size: 20px;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+}
 
+.section-sobre-mim{
+    
+}
 
 
 
