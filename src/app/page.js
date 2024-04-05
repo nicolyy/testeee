@@ -104,7 +104,7 @@ export default function Home() {
               quando tive o meu primeiro contato por meio do curso técnico.Sou apaixonada por Design
               Digital e Desenvolvimento Web. Há um ano, consegui minha bolsa de 100% através do Prouni, onde tive a 
               oportunidade de iniciar a minha graduação, agora, estou em busca de 
-              uma oportunidade para desenvolver minhas habilidades.<Link href='/pages/sobreMim'>Saiba um pouco mais sobre mim...</Link></p>
+              uma oportunidade para desenvolver minhas habilidades. <Link className='saiba-mais-link' href='/pages/sobreMim'>Saiba um pouco mais sobre mim...</Link></p>
             </div>
             <div className='container-modal'>
                     <div className='modal-transicao'>
