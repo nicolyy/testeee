@@ -3,9 +3,9 @@ import Link from 'next/link'
 import '../../../components/styles/style.scss'
 
 
-import Image1 from '../../../../public/Sobre-mim/Image1.jpg'
-import Image2 from '../../../../public/Sobre-mim/Image2.jpg'
-import Image3 from '../../../../public/Sobre-mim/Image3.jpg'
+import Image1 from '../../../../public/Sobre-mim/image1.jpg'
+import Image2 from '../../../../public/Sobre-mim/image2.jpg'
+import Image3 from '../../../../public/Sobre-mim/image3.jpg'
 
 
 export default function SobreMim(){
@@ -15,47 +15,89 @@ export default function SobreMim(){
 
         <section className='section-sobre-mim'>
         <h3 className='titulo-sobremim'>Sobre Mim</h3>
-            <div className='box-sobre-mim'>
+            <div className='box-sobre-mim-1'>
             <div>
                 <p>Olá! Sou Nicoly, tenho 19 anos, 
                 moro em São Paulo e sou estudante de Análise e Desenvolvimento de Sistemas.</p>
                 <p>Desde os meus 8 anos, quando ganhei meu primeiro computador sem internet, 
                 minha paixão pela computação foi despertada pela minha curiosidade inquieta.</p>
+                <p>Estudante da rede pública de ensino, sempre fui uma aluna comunicativa e determinada. 
+                Em 2017, destaquei-me entre meus colegas ao ser selecionada 
+                para participar do projeto JAM de Robótica, promovido pelo Núcleo de Tecnologias de 
+                Aprendizagem da Secretaria Municipal de Educação (SME) de São Paulo. 
+                Esse programa tinha como objetivo iniciar projetos de pequena escala nas escolas, 
+                utilizando Arduino e desenvolvendo protótipos.</p>
+                
             </div>
-            <Image></Image>
-            </div>
-
-
-            <div className='box-sobre-mim'>
-                <div>
-                    <p>Estudante da rede pública de ensino, sempre fui uma aluna comunicativa e determinada. 
-                        Em 2017, destaquei-me entre meus colegas ao ser selecionada 
-                        para participar do projeto JAM de Robótica, promovido pelo Núcleo de Tecnologias de 
-                        Aprendizagem da Secretaria Municipal de Educação (SME) de São Paulo. 
-                        Esse programa tinha como objetivo iniciar projetos de pequena escala nas escolas, 
-                        utilizando Arduino e desenvolvendo protótipos.</p>
-                </div>
-            <Image src={Image1} width={400} height={400}></Image>
+            <Image className='box-sobre-mim-1-image' src={Image1} width={400} height={400}></Image>
             </div>
 
 
-            <div className='box-sobre-mim'>
+            <div className='box-sobre-mim-2'>
             <p>Durante três anos, atuei como monitora, auxiliando crianças do ensino
                 fundamental I no desenvolvimento da leitura, organização da sala de 
                 aula e realização de atividades propostas pelos educadores. 
                 Ao final do ano letivo, fui reconhecida com o certificado de 
                 primeiro lugar entre os monitores.</p>
-            <Image></Image>
+
+            <p>Desenvolviamos peças teatrais com outros alunos e fantoches, compartilhavamos 
+            contos folcloricos e ensinavamos sobre outras culturas para as crianças. 
+            Esse projeto me despertou ainda mais a minha conexão com os livros. Com ele, 
+            tive a oportunidade de conhecer pela primeira vez a BIENAL de SP. 
+            </p>
+
+            <p> Dar aulas é uma experiência enriquecedora que oferece várias qualidades e benefícios;</p>
+          
+
+            <ul>
+                <li>Aprendizado Continuo
+                    <p>Ao ensinar, você é constantemente desafiado a aprofundar seu próprio conhecimento 
+                    sobre o assunto que está ensinando. Isso pode levar a uma compreensão mais profunda e holística do tópico.</p>
+                </li>
+
+                <li>Habilidade de comunicação 
+                    <p>Dar aulas ajuda a desenvolver habilidades de comunicação eficazes.
+                         Você aprende a explicar conceitos complexos de forma clara e acessível, 
+                         adaptando sua linguagem para diferentes públicos e contextos.</p>
+                </li>
+
+                <li>Empatia e Compreensão
+                    <p>Interagir com alunos de diversas origens e níveis de habilidade desenvolve a capacidade de 
+                     empatia e compreensão. Você aprende a reconhecer as necessidades individuais 
+                    dos alunos e a adaptar seu ensino para atendê-las.</p>
+                </li>
+
+                <li>Paciência e resiliência
+                    <p> Lidar com desafios na sala de aula, como alunos com dificuldades de aprendizado
+                         ou comportamentais, requer paciência e resiliência. Ao enfrentar esses desafios,
+                          você desenvolve essas qualidades importantes.</p>
+                </li>
+
+                <li>Criatividade
+                    <p>Encontrar maneiras inovadoras e envolventes de ensinar um tópico pode estimular a criatividade.
+                    Você pode experimentar diferentes métodos de ensino, atividades e recursos para manter os alunos engajados e motivados.</p>
+                </li>
+            
+            </ul>
+     
             </div>
-            <div className='box-sobre-mim'>
+            <div className='box-sobre-mim-3'>
             <p>Posteriormente, concluí o curso técnico em Informática,
                 o que me impulsionou a fundar minha própria loja online 
                 de papelaria personalizada em 2021. Utilizei habilidades
                 em softwares como Adobe Fireworks, Pacote Office, Illustrator, 
                 Silhouette Studio, Canva e técnicas de impressão em diversos tipos de papel.</p>
-            <Image></Image>
+                <span className='produtos'>
+                    <div className='produtos-item'></div>
+                    <div className='produtos-item'></div>
+                    <div className='produtos-item'></div>
+                    <div className='produtos-item'></div>
+                    <div className='produtos-item'></div>
+                    <div className='produtos-item'></div>
+                    
+                </span>
             </div>
-            <div className='box-sobre-mim'>
+            <div className='box-sobre-mim-3'>
             <p>Atualmente, estou em processo de formação superior, 
                 beneficiada com uma bolsa de 100% pelo Prouni. 
                 Paralelamente, venho aplicando os conhecimentos 
