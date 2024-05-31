@@ -38,6 +38,10 @@ import Github from '../../public/GitHub.svg'
 import Block from '../../public/Block.svg'
 
 
+
+
+
+
 export default function Home() {
 
         const [modalFormacaoIsOpen, setModalFormacaoIsOpen] = useState(false);
@@ -97,13 +101,10 @@ export default function Home() {
               <h2>Sobre Mim</h2>
               <p>Prazer, Nicoly! Sou estudante de análise e desenvolvimento de sistenas, 
               morando em São Paulo. Eu me interesso pela área desde os meus 15 anos, 
-              quando tive o meu primeiro contato por meio do técnico, através do curso
-              consegui ter a certeza que era o que eu queria. Sou apaixonada por Design
-              Digital e Desenvolvimento Web, tenho como objetivo seguir com a carreira 
-              de Front End e User Experience, mas disposta a conhecer novos caminhos. 
-              Há um ano, consegui minha bolsa de 100% através do Prouni, onde tive a 
+              quando tive o meu primeiro contato por meio do curso técnico.Sou apaixonada por Design
+              Digital e Desenvolvimento Web. Há um ano, consegui minha bolsa de 100% através do Prouni, onde tive a 
               oportunidade de iniciar a minha graduação, agora, estou em busca de 
-              uma oportunidade para desenvolver minhas habilidades.</p>
+              uma oportunidade para desenvolver minhas habilidades. <Link className='saiba-mais-link' href='/pages/sobreMim'>Saiba um pouco mais sobre mim...</Link></p>
             </div>
             <div className='container-modal'>
                     <div className='modal-transicao'>

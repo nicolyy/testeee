@@ -2,6 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
 
+
+$cor-base: #ffffff; // Cor base
+$cor-neon: #D0014C; // Cor do neon
+
+// Mixin para o efeito de sombra
+@mixin neon-sombra($cor) {
+    box-shadow: 0 0 10px $cor, 0 0 20px $cor, 0 0 40px $cor, 0 0 60px $cor, 0 0 80px $cor;
+}
+
+
 /* Pagina principal */
 /*Fontes, titulos e subtitulos*/
 
@@ -168,6 +178,19 @@ h2{
     font-size: 28px;
 
     line-height: 1.2;
+}
+
+
+.saiba-mais-link{
+    text-decoration: none;
+    color: #B40041;
+
+}
+
+.saiba-mais-link:hover{
+    text-decoration: none;
+    color: #B40041;
+    font-weight: bold;
 }
 
 .texto-curriculo{
@@ -471,6 +494,236 @@ border:  solid 1px #D0014C;
     margin: 5% 0 0 0;
     text-align: center;
 }
+
+
+/*Sobre Mim*/
+
+.titulo-sobremim{
+    color: #D0014C ;
+    font-size: 40px;
+    font-family: 'spline sans mono';
+    padding: 5% 0 5% 0;
+}
+
+
+.sub-sobremim{
+    color: #D0014C ;
+    font-size: 40px;
+    font-family: 'spline sans mono';
+    padding: 5% 0 0 0;
+}
+
+
+.section-sobre-mim{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10% 15% 10% 15%;
+}
+
+
+.section-sobre-mim-alt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image:  url(../../../public/Sobre-mim/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.box-sobre-mim{
+    width: 100%;
+    font-size: 20px;
+    flex-direction: column;
+    display: flex;
+    
+    
+}
+
+.box-sobre-mim-1{
+    width: 100%;
+    font-size: 20px;
+    flex-direction: row;
+    display: flex;
+    
+    
+}
+
+.box-sobre-mim-1 p {
+    padding: 2% 20% 0 0;
+}
+
+
+
+.box-sobre-mim-1-image{
+    border-radius: 20px;
+    width: 300px; // Ajuste conforme necessário
+    height: auto;
+    filter: brightness(1.5); // Ajusta o brilho da imagem
+    @include neon-sombra($cor-neon); // Aplica o efeito de sombra neon
+}
+
+
+.box-sobre-mim-2{
+   /* background-image: url(../../../public/Sobre-mim/background.png); */
+    width: 100%;
+    font-size: 20px;
+    flex-direction: column;
+    display: flex;
+    
+
+}
+.sobre-mim-2-texto {
+    color: #fff;
+    padding: 2% 0 0 0;
+    margin: 0% 15% 0% 15%;
+}
+
+.box-sobre-mim-2 h4{
+    margin: 0% 15% 0% 15%;
+    color: #fff;
+}
+
+
+ul{
+    list-style: none;
+    color:  #fff;
+    margin: 2% 15% 5% 15%;
+ 
+}
+
+li{
+    margin: 1% 0 0 0;
+}
+
+.list-titulo{
+    font-weight: bold;
+    color:  #fff;
+    background-color: #b4004276;
+    padding: 1% 0 1% 1%;
+    margin: 1% 0 1% 0;
+}
+
+.box-sobre-mim-3{
+    width: 100%;
+    font-size: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin: 5% 0 10% 0;
+  
+
+}
+
+.box-sobre-mim-3 img{
+    margin: 5% 0 0 0;
+}
+
+.produtos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5% 0 0 0;
+}
+
+.produtos-item-1{
+    width: 10vw;
+    height: 30vh;
+    background-color: #D0014C;
+    box-shadow: 10px 10px   #D0014C,
+                10px 10px   #D0014C,
+                10px 10px   #D0014C;
+}
+
+
+.produtos-item-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.produtos-item-2{
+    width: 10vw;
+    height: 30vh;
+    background-color: #D0014C;
+    box-shadow: 10px 10px   #D0014C,
+                10px 10px   #D0014C,
+                10px 10px   #D0014C;
+}
+
+.produtos-item-2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.produtos-item-3{
+    width: 10vw;
+    height: 30vh;
+    background-color: #D0014C;
+    box-shadow: 10px 10px   #D0014C,
+                10px 10px   #D0014C,
+                10px 10px   #D0014C;
+}
+
+.produtos-item-3 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.produtos-item-4{
+    width: 10vw;
+    height: 30vh;
+    background-color: #D0014C;
+    box-shadow: 10px 10px   #D0014C,
+                10px 10px   #D0014C,
+                10px 10px   #D0014C;
+
+}
+
+
+.produtos-item-4 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.produtos-item-5{
+    width: 10vw;
+    height: 30vh;
+    background-color: #D0014C;
+    box-shadow: 10px 10px   #D0014C,
+                10px 10px   #D0014C,
+                10px 10px   #D0014C;
+}
+
+
+.produtos-item-5 img{
+    width: 100%;
+    height: 100%;
+}
+
+.produtos-item-6{
+    width: 10vw;
+    height: 30vh;
+    background-color: #D0014C;
+    box-shadow: 10px 10px   #D0014C,
+                10px 10px   #D0014C,
+                10px 10px   #D0014C;
+}
+
+
+.produtos-item-6 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
 
 /* Media Querie -------------------------------------------------------------------*/
 @media only screen and (max-width: 1024px) {
