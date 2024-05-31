@@ -4,7 +4,7 @@
 
 
 $cor-base: #ffffff; // Cor base
-$cor-neon: #ac046c; // Cor do neon
+$cor-neon: #D0014C; // Cor do neon
 
 // Mixin para o efeito de sombra
 @mixin neon-sombra($cor) {
@@ -610,9 +610,14 @@ li{
     font-size: 20px;
     flex-direction: column;
     display: flex;
-    margin: 3% 0 10% 0;
+    align-items: center;
+    margin: 5% 0 10% 0;
   
 
+}
+
+.box-sobre-mim-3 img{
+    margin: 5% 0 0 0;
 }
 
 .produtos{
